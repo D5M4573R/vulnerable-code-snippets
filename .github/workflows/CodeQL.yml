@@ -27,7 +27,7 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
-          languages: 'auto' # Automatically detect repository languages
+          languages: 'php,python,html,javascript' # Primary languages in your repo
 
       - name: Build code
         run: |
